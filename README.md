@@ -1,7 +1,7 @@
 # ReactFirestoreCRUD
 Front end amb React JS per aprofitar l'API en NodeJS
 
-# Guia instal·lació
+# Guia d'instal·lació
 
 Descarregar el codi
 
@@ -24,4 +24,17 @@ Executar el servidor
 
 ```
 npm run developer
+```
+# Guia de desplegament a GCP
+
+Compilar el codi per fer ús a produció
+
+```
+npm run build
+```
+
+Executar la següent comanda per pujar el codi a GCP
+
+```
+gcloud app run
 ```
