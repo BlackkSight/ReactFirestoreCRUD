@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#root{
+  height: 100vh;
+}
+.App{
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12,1fr);
+}
+.App > h1 {
+  grid-column-start: 6;
+  grid-column-end: 8;
+  grid-row-start: 2;
+  grid-row-end: 6;
+}
+.MainCard{
+  grid-row-start: 5;
+  grid-row-end: 12;
+  grid-column-start: 2;
+  grid-column-end: 12;
+  padding: 10%;
+  width: auto !important;
+  height: auto !important;
+}
+.contactlist{
+  height: 100%;
+  width: 100%;
+  padding: 25px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3,1fr);
+  column-gap: 15px;
+}
+.ui.card{
+  margin: 0;
+}
+.contactCard{
+  width: auto !important;
+  height: auto !important;
+}
+.contactCardHeader{
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+.contactContent{
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contactEmail, .contactPhone{
+  font-size: 20px;
+}
+.contactButtons{
+  height: 20%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.buttonGroup{
+  margin-bottom: 5px !important;
+}
+.modalDeleteText{
+  text-align: center;
+}
+.editModal{
+  width: 350px !important;
+}
