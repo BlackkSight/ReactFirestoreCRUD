@@ -27,6 +27,12 @@ npm run developer
 ```
 # Guia de desplegament a GCP
 
+Canviar la variable on React farà les peticions
+
+```
+export REACT_APP_API=https://ServidorAPIaGCP/
+```
+
 Compilar el codi per fer ús a produció
 
 ```
