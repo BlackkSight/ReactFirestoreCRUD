@@ -1,6 +1,11 @@
 # ReactFirestoreCRUD
 Front end amb React JS per aprofitar l'API en NodeJS
 
+Exemple a:
+```
+https://reactxnodexfirebase-dot-wave46-riveroortega.ew.r.appspot.com/
+```
+
 # Guia d'instal·lació
 
 Descarregar el codi
