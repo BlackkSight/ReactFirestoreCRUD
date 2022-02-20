@@ -36,5 +36,5 @@ npm run build
 Executar la següent comanda per pujar el codi a App Engine de GCP
 
 ```
-gcloud app run
+gcloud app deploy
 ```
