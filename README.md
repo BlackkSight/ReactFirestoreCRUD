@@ -33,7 +33,7 @@ Compilar el codi per fer ús a produció
 npm run build
 ```
 
-Executar la següent comanda per pujar el codi a GCP
+Executar la següent comanda per pujar el codi a App Engine de GCP
 
 ```
 gcloud app run
